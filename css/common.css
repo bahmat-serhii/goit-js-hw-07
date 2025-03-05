@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  background-color: #fafafa;
+  color: #2e2f42;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+input,
+textarea,
+button {
+  font: inherit;
+}
+/* -------------------task-1-------------------- */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+  width: 100%;
+}
+.list-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.list-item-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  margin-bottom: 16px;
+}
+.list-item-list-item {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  padding: 8px 16px;
+}
+
+/* -----------------task-2------------------ */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  padding: 100px 156px;
+}
+
+/* ------------------task-3------------------ */
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+}
+.text-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.text-input:focus {
+  border-color: black;
+}
+
+/* --------------------task-4------------------ */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form-label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 72px;
+  gap: 8px;
+}
+.form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: transparent;
+  padding: 8px 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-input:focus {
+  border-color: black;
+}
+.form-btn {
+  margin-top: 8px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-btn:hover {
+  background-color: #6c8cff;
+}
+
+/* ------------------task-5--------------- */
+.text-color {
+  text-align: center;
+}
+.widget {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 169px;
+  height: 80px;
+  margin: 100px auto;
+}
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+  font-weight: 500;
+  color: #fff;
+  margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.change-color:hover {
+  background-color: #6c8cff;
+}
+
+/* --------------------task-6----------------- */
+
+.controls-box {
+  display: flex;
+  padding: 32px;
+  gap: 16px;
+  border-radius: 8px;
+  width: 100%;
+  height: 104px;
+  background-color: #f6f6fe;
+  margin-bottom: 16px;
+}
+.input-number {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-number:focus {
+  border-color: black;
+}
+.btn-create {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-create:hover {
+  background-color: #6c8cff;
+}
+.btn-destroy {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background-color: #ff4e4e;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-destroy:hover {
+  background-color: #ff7070;
+}
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #f6f6fe;
+}
